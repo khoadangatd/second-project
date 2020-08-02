@@ -1,0 +1,26 @@
+ul,li,p,h3,h4{
+    margin: 0;
+    list-style: none;
+    padding:0;
+}
+
+:root{
+    font-size: 10px;
+    --pcolor:#171347;
+    --hovercolor:#008aff;
+}
+
+*{
+    box-sizing: border-box;
+    font-weight: 500;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 6px;  
+}
+
+.col-sm{
+    padding-left: 0;
+}
+
