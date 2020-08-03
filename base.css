@@ -8,6 +8,7 @@ ul,li,p,h3,h4{
     font-size: 10px;
     --pcolor:#171347;
     --hovercolor:#008aff;
+    --normalcolor:#718096;
 }
 
 *{
@@ -23,4 +24,5 @@ ul,li,p,h3,h4{
 .col-sm{
     padding-left: 0;
 }
+
 
