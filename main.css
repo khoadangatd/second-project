@@ -63,7 +63,7 @@
 
 .header__navbar__category{
     position: unset;
-    display: none;
+    display: flex;
 }
 
 .header__navbar__category__item{
@@ -1222,6 +1222,7 @@
         margin-left: 15px;
     }
     .header__navbar__category{
+        display: none;
         position: absolute;
         width: 100%;
         top:100%;
@@ -1242,7 +1243,6 @@
     .header__navbar__category__item__list{
         position: unset;
         width: 100%;
-        overflow: scroll;
     }
 
     .header__navbar__category__item__list__item{
