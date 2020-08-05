@@ -471,6 +471,8 @@
    height: 100vh;
    position: fixed;
    top:0;
+   left:0;
+   right:0;
    z-index:10;
    display: none;
 }
@@ -482,7 +484,6 @@
 .overlay-fullscreen__picture{
     margin: auto;
     width: 50%;
-    height:90vh
 }
 
 .overlay-fullscreen__btn--left{
@@ -1187,9 +1188,6 @@
     .straight__item__stick__detail{
         margin-left: 5px;
     }
-    .col-sm{
-        padding-left: 15px;
-    }
     .footer__heading__input{
         margin-left: 10px;
     }
@@ -1210,7 +1208,36 @@
     }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 770px){
+@media only screen and (min-width: 0px) and (max-width: 775px){
+    .straight__item:first-child{
+        margin:0;
+    }
+    .straight__full{
+        display: unset;
+    }
+    .easyway-3{
+        display: block;
+    }
+    .list__full{
+        display: block;
+    }
+    .list__full_item{
+        margin: auto;
+        width: 50%;
+    }
+    .list__full_item:last-child{
+        margin:auto;
+    }
+    .statistic__full{
+        display: block;
+    }
+    .statistic__item{
+        margin: auto;
+        width: 50%;
+    }
+    .statistic__item:first-child{
+        margin:auto;
+    }
     .header__finish{
         padding-top: 50px;
     }
@@ -1304,9 +1331,6 @@
     }
     .row.discussion__container__full{
         margin-left:unset;
-    }
-    .statistic__item{
-        margin:unset;
     }
     .easyway-2__intro{
         margin:0 0 0 10px;
